@@ -372,8 +372,8 @@
 
 
     NSURLSession *session = [NSURLSession sharedSession];
-    NSURL *url = [NSURL URLWithString:@"http://115.231.100.92:1152/login/token/verify"];
-//    NSURL *url = [NSURL URLWithString:@"https://sim-api.upyun.com/login/token/verify"];
+
+    NSURL *url = [NSURL URLWithString:@"https://sim-api.upyun.com/login/token/verify"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url ];
 
     [request addValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
