@@ -12,7 +12,7 @@
 
 拖动 demo 中的 `Frameworks` 文件夹到自己的工程中, 勾选 `Copy items if needed`  
 __注:__ `Frameworks` 文件夹 含有
-`QuickLogin.framework`, `TYRZSDK.framework`, `EAccountApiSDK.framework`, `account_login_sdk_noui_core.framework`
+`QuickLogin.framework`, `TYRZSDK.framework`, `EAccountApiSDK.framework`, `account_login_sdk_noui_core.framework`, `OAuth.framework`
 
 为工程添加相应的Frameworks，需要为项目添加的Frameworks如下
 
@@ -34,6 +34,7 @@ TYRZSDK.framework
 account_login_sdk_noui_core.framework
 EAccountApiSDK.framework
 QuickLogin.framework
+OAuth.framework
 
 ```
 

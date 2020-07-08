@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4C097B24B5A4540004D179 /* OAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C097A24B5A4540004D179 /* OAuth.framework */; };
 		3EEE3E8623FA7B53005A3DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8523FA7B53005A3DAF /* AppDelegate.m */; };
 		3EEE3E8C23FA7B53005A3DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8B23FA7B53005A3DAF /* ViewController.m */; };
 		3EEE3E8F23FA7B53005A3DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8D23FA7B53005A3DAF /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E4C097A24B5A4540004D179 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
 		3EEE3E8123FA7B53005A3DAF /* 又拍云一键登录Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "又拍云一键登录Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EEE3E8423FA7B53005A3DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EEE3E8523FA7B53005A3DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				3EEE3EB423FA7DB3005A3DAF /* SystemConfiguration.framework in Frameworks */,
 				3EEE3EA823FA7D61005A3DAF /* CFNetwork.framework in Frameworks */,
 				3EEE3EB223FA7DAB005A3DAF /* CoreTelephony.framework in Frameworks */,
+				3E4C097B24B5A4540004D179 /* OAuth.framework in Frameworks */,
 				3EEE3EA623FA7D5A005A3DAF /* AdSupport.framework in Frameworks */,
 				803A8ABD3D34F52D39813B35 /* libPods-LoginTest.a in Frameworks */,
 			);
@@ -204,6 +207,7 @@
 		3EEE3F1C24036FE6005A3DAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E4C097A24B5A4540004D179 /* OAuth.framework */,
 				3EEE3F1D24036FE6005A3DAF /* TYRZSDK.framework */,
 				3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */,
 				3EEE3F1F24036FE6005A3DAF /* account_login_sdk_noui_core.framework */,
