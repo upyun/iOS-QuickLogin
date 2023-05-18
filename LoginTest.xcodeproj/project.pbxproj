@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E4C097B24B5A4540004D179 /* OAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4C097A24B5A4540004D179 /* OAuth.framework */; };
+		3E03B1622A149F8300B3663F /* account_login_sdk_noui_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E03B15F2A149F8300B3663F /* account_login_sdk_noui_core.framework */; };
+		3E03B1632A149F8300B3663F /* EAccountApiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E03B1602A149F8300B3663F /* EAccountApiSDK.framework */; };
+		3E03B1642A149F8300B3663F /* TYRZUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E03B1612A149F8300B3663F /* TYRZUISDK.xcframework */; };
+		3E03B1652A14A16F00B3663F /* QuickLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */; };
+		3E03B1662A14A16F00B3663F /* QuickLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EEE3E8623FA7B53005A3DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8523FA7B53005A3DAF /* AppDelegate.m */; };
 		3EEE3E8C23FA7B53005A3DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8B23FA7B53005A3DAF /* ViewController.m */; };
 		3EEE3E8F23FA7B53005A3DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE3E8D23FA7B53005A3DAF /* Main.storyboard */; };
@@ -41,15 +45,27 @@
 		3EEE3ED723FA7F5B005A3DAF /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE3EC923FA7F5A005A3DAF /* close@3x.png */; };
 		3EEE3ED823FA7F5B005A3DAF /* loginBtn_Nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE3ECA23FA7F5A005A3DAF /* loginBtn_Nor@3x.png */; };
 		3EEE3ED923FA7F5B005A3DAF /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE3ECB23FA7F5B005A3DAF /* close@2x.png */; };
-		3EEE3F2124036FE6005A3DAF /* TYRZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F1D24036FE6005A3DAF /* TYRZSDK.framework */; };
-		3EEE3F2224036FE6005A3DAF /* QuickLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */; };
-		3EEE3F2324036FE6005A3DAF /* account_login_sdk_noui_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F1F24036FE6005A3DAF /* account_login_sdk_noui_core.framework */; };
-		3EEE3F2424036FE6005A3DAF /* EAccountApiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEE3F2024036FE6005A3DAF /* EAccountApiSDK.framework */; };
 		803A8ABD3D34F52D39813B35 /* libPods-LoginTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED041714E659D8329FA44AC6 /* libPods-LoginTest.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3E03B1672A14A16F00B3663F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3E03B1662A14A16F00B3663F /* QuickLogin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3E4C097A24B5A4540004D179 /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
+		3E03B15F2A149F8300B3663F /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
+		3E03B1602A149F8300B3663F /* EAccountApiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountApiSDK.framework; sourceTree = "<group>"; };
+		3E03B1612A149F8300B3663F /* TYRZUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TYRZUISDK.xcframework; sourceTree = "<group>"; };
 		3EEE3E8123FA7B53005A3DAF /* 又拍云一键登录Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "又拍云一键登录Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EEE3E8423FA7B53005A3DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EEE3E8523FA7B53005A3DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,10 +103,7 @@
 		3EEE3EC923FA7F5A005A3DAF /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
 		3EEE3ECA23FA7F5A005A3DAF /* loginBtn_Nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginBtn_Nor@3x.png"; sourceTree = "<group>"; };
 		3EEE3ECB23FA7F5B005A3DAF /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
-		3EEE3F1D24036FE6005A3DAF /* TYRZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZSDK.framework; sourceTree = "<group>"; };
 		3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickLogin.framework; sourceTree = "<group>"; };
-		3EEE3F1F24036FE6005A3DAF /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
-		3EEE3F2024036FE6005A3DAF /* EAccountApiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountApiSDK.framework; sourceTree = "<group>"; };
 		7FF8B86C1F1660F18D5249B7 /* Pods-LoginTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.release.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.release.xcconfig"; sourceTree = "<group>"; };
 		E7B16C4A4DF2ACBBDAE2172E /* Pods-LoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTest.debug.xcconfig"; path = "Target Support Files/Pods-LoginTest/Pods-LoginTest.debug.xcconfig"; sourceTree = "<group>"; };
 		ED041714E659D8329FA44AC6 /* libPods-LoginTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,21 +116,20 @@
 			files = (
 				3EEE3EB823FA7DC9005A3DAF /* CoreGraphics.framework in Frameworks */,
 				3EEE3EBC23FA7DE2005A3DAF /* MobileCoreServices.framework in Frameworks */,
-				3EEE3F2424036FE6005A3DAF /* EAccountApiSDK.framework in Frameworks */,
+				3E03B1652A14A16F00B3663F /* QuickLogin.framework in Frameworks */,
 				3EEE3EAA23FA7D69005A3DAF /* CoreFoundation.framework in Frameworks */,
-				3EEE3F2324036FE6005A3DAF /* account_login_sdk_noui_core.framework in Frameworks */,
+				3E03B1632A149F8300B3663F /* EAccountApiSDK.framework in Frameworks */,
 				3EEE3EAD23FA7D7E005A3DAF /* libz.tbd in Frameworks */,
-				3EEE3F2124036FE6005A3DAF /* TYRZSDK.framework in Frameworks */,
 				3EEE3EA423FA7D4F005A3DAF /* CoreLocation.framework in Frameworks */,
-				3EEE3F2224036FE6005A3DAF /* QuickLogin.framework in Frameworks */,
 				3EEE3EB623FA7DBE005A3DAF /* Security.framework in Frameworks */,
 				3EEE3EBA23FA7DD7005A3DAF /* libsqlite3.tbd in Frameworks */,
+				3E03B1642A149F8300B3663F /* TYRZUISDK.xcframework in Frameworks */,
 				3EEE3EB023FA7DA1005A3DAF /* libc++.1.tbd in Frameworks */,
+				3E03B1622A149F8300B3663F /* account_login_sdk_noui_core.framework in Frameworks */,
 				3EEE3EAE23FA7D94005A3DAF /* libresolv.tbd in Frameworks */,
 				3EEE3EB423FA7DB3005A3DAF /* SystemConfiguration.framework in Frameworks */,
 				3EEE3EA823FA7D61005A3DAF /* CFNetwork.framework in Frameworks */,
 				3EEE3EB223FA7DAB005A3DAF /* CoreTelephony.framework in Frameworks */,
-				3E4C097B24B5A4540004D179 /* OAuth.framework in Frameworks */,
 				3EEE3EA623FA7D5A005A3DAF /* AdSupport.framework in Frameworks */,
 				803A8ABD3D34F52D39813B35 /* libPods-LoginTest.a in Frameworks */,
 			);
@@ -207,11 +219,10 @@
 		3EEE3F1C24036FE6005A3DAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E4C097A24B5A4540004D179 /* OAuth.framework */,
-				3EEE3F1D24036FE6005A3DAF /* TYRZSDK.framework */,
+				3E03B15F2A149F8300B3663F /* account_login_sdk_noui_core.framework */,
+				3E03B1602A149F8300B3663F /* EAccountApiSDK.framework */,
+				3E03B1612A149F8300B3663F /* TYRZUISDK.xcframework */,
 				3EEE3F1E24036FE6005A3DAF /* QuickLogin.framework */,
-				3EEE3F1F24036FE6005A3DAF /* account_login_sdk_noui_core.framework */,
-				3EEE3F2024036FE6005A3DAF /* EAccountApiSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -236,6 +247,7 @@
 				3EEE3E7D23FA7B53005A3DAF /* Sources */,
 				3EEE3E7E23FA7B53005A3DAF /* Frameworks */,
 				3EEE3E7F23FA7B53005A3DAF /* Resources */,
+				3E03B1672A14A16F00B3663F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

@@ -10,6 +10,10 @@
 #import <UIKit/UIKit.h>
 
 #define UP_VERSION_NUMBER 1.0.0
+
+typedef void (^UPPrivacyAlertViewBlock)(UIViewController *vc , NSArray *appPrivacys,void(^loginAction)(void));
+
+
 /**
  UPLayoutConstraint 布局参照item
 
@@ -201,9 +205,11 @@ typedef NS_ENUM(NSUInteger, UPLayoutItem) {
  当自定义Alert view,当隐私条款未选中时,点击登录按钮时回调
  当此参数存在时,未选中隐私条款的情况下，登录按钮可以被点击
  block内部参数为自定义Alert view可被添加的控制器，详细用法可参见示例demo
+ 开发者可以根据给出的VC、appPrivacys自定义协议勾选提醒二次弹窗
+ 然后利用loginAction进行登录
  注意：当此参数不为空并且隐私栏为选中的情况下，logBtnImgs失效状态图片设置无效
  */
-@property (nonatomic,copy) void(^customPrivacyAlertViewBlock)(UIViewController * vc);
+@property (nonatomic, strong) UPPrivacyAlertViewBlock customPrivacyAlertViewBlock;
 
 
 //MARK:slogan************
